@@ -29,12 +29,13 @@ jobs:
         sudo dpkg -i google-chrome-stable_current_amd64.deb
         sudo apt-get install -f -y
 
-    - name: Install ChromeDriver
-      run: |
-        wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
-        unzip chromedriver_linux64.zip
-        sudo mv chromedriver /usr/local/bin/chromedriver
-        sudo chmod +x /usr/local/bin/chromedriver
+   - name: Install ChromeDriver
+        run: |
+          LATEST_DRIVER=$(wget -qO- https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+          wget https://chromedriver.storage.googleapis.com/$LATEST_DRIVER/chromedriver_linux64.zip
+          unzip chromedriver_linux64.zip
+          sudo mv chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
 
     - name: Set execute permissions for selenium-manager
       run: chmod +x /home/runner/work/ui976/ui976/SeleniumIDE/bin/Debug/net6.0/selenium-manager/linux/selenium-manager || true
