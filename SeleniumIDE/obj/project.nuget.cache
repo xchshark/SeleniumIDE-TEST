@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WgidVRL4Tm5xKpc2Kp+vSXNFQA4HodXRxgsLZJtO77sCdgw9qgyy6+fQqN9FUl/nfuSnoKlC0CbkyTmzqc0zBg==",
+  "dgSpecHash": "s6g2iwhMJwj8S3RzpII3D0c+XsHI6jcSQjIzqOouGRnyPAlAO3gGvwYwICxSCfcD5KkxCFNVmqrwi9RyITdo3A==",
   "success": true,
   "projectFilePath": "C:\\SOFTUNI 23\\QA FRONTEND\\SeleniumIDE_Demo_ AYROLA\\SeleniumIDE\\SeleniumIde.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\user\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\selenium.webdriver\\4.23.0\\selenium.webdriver.4.23.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\selenium.webdriver.chromedriver\\127.0.6533.8800\\selenium.webdriver.chromedriver.127.0.6533.8800.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
